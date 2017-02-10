@@ -241,24 +241,15 @@ overflow: hidden;
     }
 }    
 /*底部*/
-@media screen and (max-width:1068px){
-    .more{
-        width:100%;
-    }
-}
-@media screen and (max-width:735px) {
-    .more {
-        width:100%;
-    }
-}
+
 .more{
-    width:980px;
+    width:480px;
     height:auto;
     border-bottom:1px solid #e9e9e9;
     margin:0 auto;
 }
 .more span{
-    height:48px
+    height:48px;
     color:#b1b1b1;
     line-height:24px;
     font-size:12px;
@@ -274,7 +265,7 @@ overflow: hidden;
     text-decoration:underline;
 }
 .bottom-bottom{
-    width:980px;
+    width:245px;
     height:70px;
     margin:0 auto;
     font-size:10px;
@@ -290,33 +281,29 @@ overflow: hidden;
     color:#99a3b9;
 }
 .bottom-two{
-    width:480px;
+    width:233px;
     height:15px;
     float:left;
 }
 .bottom-two a{
-    width:75px;
+    width:40px;
     height:15px;
     border-right:1px solid #8f8f87;
     float:left;
-    margin-left: 15px;
     color:#6e667d;
 }
 .bottom-two a:hover{
     text-decoration:underline;
 }
-.bottom-three{
-    width:21px;
-    height:10px;
-    float:right;
+@media screen and (max-width:1068px){
+    .more{
+        width:100%;
+    }
 }
-.bottom-three a{
-    color:#8f8f8f;
-    font-size:12px;
-}
-.bottom-three a:hover{
-    color:#333333;
-    text-decoration:underline;
+@media screen and (max-width:735px) {
+    .more {
+        width:100%;
+    }
 }
 .footer{
     width:100%;
@@ -369,12 +356,12 @@ overflow: hidden;
         margin-left:10px;
     }
     .bottom-three{
-        width:100%
+        width:100%;
         height:auto;
         margin-left:10px;
     }
     .more span a{
-        width:100%
+        width:100%;
         height:auto;
         margin-left:10px;
         display:none;
@@ -389,7 +376,7 @@ overflow: hidden;
     text-decoration:underline;
 }
 .footer-title{
-    height:48px
+    height:48px;
     color:#b1b1b1;
     line-height:48px;
 }
